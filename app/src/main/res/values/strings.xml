@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CommoditySystem</string>
+    <string name="title_commodity">商品</string>
+    <string name="title_customer">客户</string>
+    <string name="title_order">订单</string>
+    <string name="title_suppers">供货商</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_item">添加</string>
+    <string name="long_click">删除</string>
+</resources>

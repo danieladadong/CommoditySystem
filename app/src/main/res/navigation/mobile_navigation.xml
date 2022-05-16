@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_commodity">
+
+    <fragment
+        android:id="@+id/navigation_commodity"
+        android:name="com.example.commoditysystem.ui.commodity.CommodityFragment"
+        android:label="@string/title_commodity"
+        tools:layout="@layout/fragment_commodity" />
+
+    <fragment
+        android:id="@+id/navigation_customer"
+        android:name="com.example.commoditysystem.ui.customer.CustomerFragment"
+        android:label="@string/title_customer"
+        tools:layout="@layout/fragment_customer" />
+
+    <fragment
+        android:id="@+id/navigation_order"
+        android:name="com.example.commoditysystem.ui.order.OrderFragment"
+        android:label="@string/title_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/navigation_suppers"
+        android:name="com.example.commoditysystem.ui.suppers.SuppersFragment"
+        android:label="@string/title_suppers"
+        tools:layout="@layout/fragment_suppers" />
+</navigation>
